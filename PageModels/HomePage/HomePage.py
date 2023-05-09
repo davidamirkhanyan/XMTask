@@ -12,12 +12,8 @@ class HomePage(BasePage):
         super().__init__(driver)
     
     def accept_all_cookies(self):
-        elem = self.return_element(cookie_modal)
         self.click_on(accept_all_cookies_button)
-        while True:
-            val = elem.get_attribute('style')
-            if val == 'display: none;':
-                break
+        time.sleep(0.5)
         return 1
     
     def choose_navigation_item(self, item: str):
