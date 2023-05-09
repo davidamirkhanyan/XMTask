@@ -6,7 +6,7 @@
 ## Installation
 1) Clone the repository
 2) It's recommended to create a virtual environment. 
-3) Install the required dependencies by running "pip install -r requirements.txt"
+3) Install the required dependencies by running "pip install -r requirements"
 
 ## Usage
 * For running tests all you need is to copy the path of desired test or test suite
