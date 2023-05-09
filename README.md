@@ -10,7 +10,7 @@
 
 ## Usage
 * For running tests all you need is to copy the path of desired test or test suite
-and paste it in pytest.ini file's first row and then run "pytest"
+from the project's root and paste it in pytest.ini file's first row and then run "pytest"
 
 ## Pytest.ini
 Beside the first row where we store desired path to run tests, there are some additional configurations
