@@ -9,6 +9,8 @@
 
 .pytest_cache
 
+geckodriver.log
+
 venv/
 # JetBrains IDE
 .idea/
